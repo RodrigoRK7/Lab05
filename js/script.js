@@ -1,10 +1,10 @@
-let texto = "#todoText";
-let lista = "#todoList";
-let nombre = '[name="todo"]';
 let post = "#ButtonPost";
 let clear = "#ButtonClear";
 let mark = "#ButtonMark";
 let deleteb = "#ButtonDelete";
+let texto = "#todoText";
+let lista = "#todoList";
+let nombre = '[name="todo"]';
 
 $(post).on("click", function (event) {
   event.preventDefault();
